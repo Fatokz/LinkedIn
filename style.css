@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,800;1,100;1,200;1,300;1,400;1,500;1,600&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:wght@100..900&display=swap');
+*{
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    /* background-color: red; */
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.header img {
+    height: 75px;
+    cursor: pointer;
+    /* margin-left: -50px; */
+}
+.icons{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+    /* font-optical-sizing: auto; */
+}
+.icons a{
+    text-decoration: none;
+    color: gray;
+}
+.icon a p{
+    font-family: "Raleway", sans-serif;
+    font-size: 12px;
+}
+.icons i{
+    font-size: 20px;
+}
+.icon a:hover{
+    color: black;
+}
+.vl {
+    margin-top: -20px;
+    border-left: 1px solid lightgrey;
+    height: 50px;
+}
+.buttons {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-top: -15px;
+}
+.buttons button{
+    padding: 10px 25px 10px 25px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+}
+.join button{
+    background: none;
+}
+.join button:hover{
+    background-color: lightgray;
+}
+.sign button{
+    color: blue;
+    border: 1px solid blue;
+    background: transparent;
+}
+.sign button:hover{
+    background-color: rgb(149, 208, 231);
+}
+.two{
+    height: 120vh;
+    width: 100%;
+    background-color: white;
+}
+.sect2-cont{
+    display: flex;
+    justify-content: space-around;
+}
+.welcome{
+    margin-left: 90px;
+    margin-top: 50px;
+}
+.word{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 390;
+    font-size: 45px;
+    width: 100%;
+    color: rgb(187,86,58);
+    /* background-color: red; */
+}
+.form-action input{
+    padding: 12px 30% 12px 10px;
+}
+.form-action input::placeholder{
+    visibility: hidden;
+}
+.forgot, .continue a{
+    text-decoration: none;
+}
+.forgot, .continue a:hover{
+    text-decoration: underline;
+}
+.laptop img{
+    width: 100%;
+    margin-top: 50px;
+}
+.sign-in, .forgot, .inputs{
+    margin: 25px 0 25px 0;
+}
+.sign-in button{
+    padding: 10px 29% 10px 29%;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(10,102,194);
+    color: white;
+}
+.divider {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.divider::before, .divider::after {
+    flex: 0.3;
+    content: '';
+    padding: 0.1px;
+    background-color: gray;
+    margin: 15px;
+    /* text-align: center; */
+}
+.continue{
+    width: 60%;
+    font-size: 12px;
+}
+@media (max-width: 990px) {
+    .icon{
+        display: none;
+    }
+    .vl{
+        display: none;
+    }
+    .header{
+        justify-content: space-between;
+        box-sizing: border-box;
+    }
+}
