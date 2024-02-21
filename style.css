@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,800;1,100;1,200;1,300;1,400;1,500;1,600&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:wght@100..900&display=swap');
-*{
+/* *{
     box-sizing: border-box;
-}
+} */
+/* body{
+    width: 100%;
+    height: 100%;
+} */
 .header{
     width: 100%;
     height: 80px;
@@ -69,7 +73,7 @@
     background-color: rgb(149, 208, 231);
 }
 .two{
-    height: 120vh;
+    height: 140vh;
     width: 100%;
     background-color: white;
 }
@@ -80,25 +84,41 @@
 .welcome{
     margin-left: 90px;
     margin-top: 50px;
+    font-family: "Roboto", sans-serif;
 }
 .word{
     font-family: "Montserrat", sans-serif;
     font-weight: 390;
-    font-size: 45px;
+    font-size: 40px;
     width: 100%;
     color: rgb(187,86,58);
     /* background-color: red; */
 }
 .form-action input{
-    padding: 12px 30% 12px 10px;
+    outline: none;
+    /* padding: 12px 30% 12px 10px; */
+    width: 65%;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.form-action input:hover{
+    background-color: lightgrey;
+    outline: 0.5px solid black;
 }
 .form-action input::placeholder{
     visibility: hidden;
 }
-.forgot, .continue a{
+.forgot a{
     text-decoration: none;
 }
-.forgot, .continue a:hover{
+.forgot a:hover{
+    text-decoration: underline;
+}
+.continue a{
+    text-decoration: none;
+}
+.continue a:hover{
     text-decoration: underline;
 }
 .laptop img{
@@ -133,7 +153,294 @@
     width: 60%;
     font-size: 12px;
 }
-@media (max-width: 990px) {
+.google{
+    font-size: 12px;
+    /* align-items: center; */
+    /* text-align: center; */
+}
+.google button{
+    border-radius: 30px;
+    padding: 18px 65% 18px 0;
+}
+/* .google img{
+    width: 14%;
+    height: 50px;
+    border-radius: 100px;
+} */
+.three{
+    height: 70vh;
+    width: 100%;
+    /* background-color: red; */
+}
+.explore{
+    margin-left: 90px;
+    display: flex;
+    align-items: center;
+}
+.marketing{
+    width: 70%;
+}
+.articles h2{
+    font-family: "Raleway", sans-serif;
+    font-size: 50px;
+    width: 20%;
+    font-weight: 200;
+}
+.articles p{
+    width: 55%;
+    font-family: "Ral", sans-serif;
+    font-size: 15px;
+    color: grey;
+}
+.same {
+    background: transparent;
+    border: 1.5px solid black;
+    outline: none;
+    padding: 15px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+.show{
+    color: blue;
+    border: 1.5px solid blue;
+    background: transparent;
+    outline: none;
+    padding: 15px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+.four{
+    height: 70vh;
+    width: 100%;
+}
+.find{
+    margin-left: 90px;
+    display: flex;
+    /* align-items: center; */
+}
+.find-job h2{
+    font-family: "Raleway", sans-serif;
+    font-size: 50px;
+    width: 80%;
+    font-weight: 200;
+}
+.jobs{
+    width: 70%;
+}
+.five{
+    height: 50vh;
+    width: 100%;
+    background-color: rgb(241,236,229);
+}
+.post{
+    margin-left: 90px;
+    align-items: center;
+    display: flex;
+}
+.flexs h2{
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    width: 50%;
+    font-weight: 400;
+    color: rgb(178,64,32);
+    margin-top: 10%;
+}
+.post-button button{
+    padding: 15px;
+    border-radius: 30px;
+    background: transparent;
+    color: blue;
+    border: 1.5px solid blue;
+}
+.six{
+    height: 70vh;
+    width: 100%;
+    background-color: white;
+}
+.software{
+    margin-left: 90px;
+    display: flex;
+    /* align-items: center; */
+    margin-top:6%;
+}
+.discover h2{
+    font-family: "Raleway", sans-serif;
+    font-size: 50px;
+    width: 80%;
+    font-weight: 200;
+}
+.tools{
+    width: 70%;
+}
+.seven{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(243,242,240);
+}
+/* .didi img{
+    width: 100%;
+} */
+.didi{
+    margin-top: 60%;
+    align-items: center;
+}
+.divv h2{
+    color: rgb(178,64,32);
+    font-family: "Raleway", sans-serif;
+}
+.divv p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.eight{
+    height: 100vh;
+    width: 100%;
+    background-color: #ffff;
+}
+.connect{
+    display: flex;
+    margin:15% 0 0 8%;
+    /* justify-content: space-around; */
+    gap: 10%;
+}
+.help{
+    height: 450px;
+    width: 35%;
+    /* background-color: red; */
+}
+.help h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.help button{
+    background: transparent;
+    padding: 10px;
+    border-radius: 30px;
+    border: 1.3px solid black;
+}
+.skills h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.skills{
+    height: 450px;
+    width: 35%;
+    /* background-color: red; */
+}
+.nine{
+    height: 140vh;
+    width: 100%;
+    /* background-color: red; */
+    /* background-color: rgb(247,252,255); */
+}
+.linkedin{
+    height: 520px;
+    width: 50%;
+    background-color: rgb(243,242,240);
+    margin-top: 10%;
+    /* padding-top: 10%; */
+    padding: 9% 5% 5% 5%;
+}
+.linkedin h2{
+    color: rgb(178,64,32);
+    font-family: "Ral", sans-serif;
+    font-size: 35px;
+}
+.linkedin p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 28px;
+    width: 90%;
+    font-weight: 300;
+}
+.who-is{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.teach{
+    height: 500px;
+    width: 45%;
+    /* background-color: red; */
+}
+.teach img{
+    width: 100%;
+}
+.finds-button button{
+    width: 80%;
+    padding: 15px 10px 15px 10px;
+    /* height: 40px; */
+    margin-bottom: 4%;
+    background-color: rgb(234,230,223);
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    outline: none;
+}
+.finds-button button:hover{
+    background-color: rgb(216, 212, 204);
+}
+.ten{
+    height: 100vh;
+    width: 100%;
+    background-image: url(Linkedin-img-people.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.join-frd{
+    padding: 60px;
+}
+.join-frd h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    width: 100%;
+    margin-bottom: 13px;
+    font-weight: 300;
+}
+.get-started button{
+    background-color: rgb(10,102,194);
+    color: white;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+}
+.eleven{
+    margin:10px 0 10px 0;
+    height: 35vh;
+    width: 100%;
+    background-image: url(linkedin-img-last.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.twelve{
+    background-color: rgb(243,242,240);
+    height: 90vh;
+    width: 100%;
+}
+.all{
+    display: flex;
+    gap: 30px;
+    padding-top: 30px;
+}
+/* .logo{
+    height: 40vh;
+    width: 30%;
+    background-color: red;
+} */
+.general{
+    height: 80vh;
+    width: 20%;
+    background-color: red;
+}
+footer{
+    height: 10vh;
+    width: 100%;
+    background-color: white;
+}
+@media ( max-width:990px) {
     .icon{
         display: none;
     }
@@ -143,5 +450,44 @@
     .header{
         justify-content: space-between;
         box-sizing: border-box;
+        margin-left: 10px;
+    }
+    .welcome{
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+    .explore{
+        /* margin-left: 90px; */
+        display: block;
+        /* width: 40%; */
+        /* align-items: center; */
+        margin-left: 10px;
+    }
+    .articles h2{
+        width: 100%;
+    }
+    .articles p{
+        width: 77%;
+    }
+    .find{
+        margin-left: 10px;
+        display: block;
+        /* width: 100%; */
+    }
+    .find-job h2{
+        width: 100%;
+    }
+    .post{
+        margin-left: 10px;
+        /* display: flex; */
+        /* justify-content: space-evenly; */
+    }
+    .software{
+        margin-left: 10px;
+        display: block;
+        /* width: 100%; */
+    }
+    .tools{
+        display: block;
     }
 }
