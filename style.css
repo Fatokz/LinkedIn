@@ -64,6 +64,14 @@
 .join button:hover{
     background-color: lightgray;
 }
+.sign-in a{
+    color: white;
+    text-decoration: none;
+}
+.sign a{
+    color: blue;
+    text-decoration: none;
+}
 .sign button{
     color: blue;
     border: 1px solid blue;
@@ -153,14 +161,22 @@
     width: 60%;
     font-size: 12px;
 }
-.google{
+/* .google{
     font-size: 12px;
-    /* align-items: center; */
-    /* text-align: center; */
-}
+    align-items: center;
+    text-align: center;
+} */
 .google button{
+    font-size: 12px;
+    /* text-align: center; */
     border-radius: 30px;
-    padding: 18px 65% 18px 0;
+    margin-bottom: 15px;
+    padding: 10px 40% 10px 10px;
+}
+.newto button{
+    font-size: 12px;
+    padding: 10px 45% 10px 10px;
+    border-radius: 30px;
 }
 /* .google img{
     width: 14%;
@@ -431,14 +447,62 @@
     background-color: red;
 } */
 .general{
-    height: 80vh;
+    height: 75vh;
     width: 20%;
-    background-color: red;
+    /* border: 2px solid red; */
+}
+.general h3{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    margin-left: 30px;
+}
+/* li{
+    display: block;
+} */
+.all ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+.general1{
+    height: 75vh;
+    width: 20%;
+    /* border: 2px solid red; */
+    padding-left: 60px;
+}
+.general1 img{
+    width: 55%;
+}
+ul li a{
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    color: grey;
+    font-size: 14px;
+}
+ul li a:hover{
+    text-decoration: underline;
+    color: blue;
 }
 footer{
-    height: 10vh;
+    /* height: 10vh; */
     width: 100%;
     background-color: white;
+}
+.foot-img{
+    display: flex;
+    /* margin: 20px; */
+    /* align-items: center; */
+}
+.foot-img img{
+    width: 6%;
+    margin:5px 0 0 70px;
+}
+.foot-img li{
+    display: inline-block;
+    padding: 20px  8px 0 0px;
+}
+.foot-img ul li a{
+    font-size: 11px;
 }
 @media ( max-width:990px) {
     .icon{
