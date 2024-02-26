@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,800;1,100;1,200;1,300;1,400;1,500;1,600&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:wght@100..900&display=swap');
+
 /* *{
     box-sizing: border-box;
 } */
@@ -6,190 +7,233 @@
     width: 100%;
     height: 100%;
 } */
-.header{
+.header {
     width: 100%;
     height: 80px;
     align-items: center;
     display: flex;
     justify-content: space-around;
 }
+
 .header img {
     height: 75px;
     cursor: pointer;
 }
-.icons{
+
+.icons {
     display: flex;
     text-align: center;
     align-items: center;
     gap: 30px;
     margin-top: 20px;
 }
-.icons a{
+
+.icons a {
     text-decoration: none;
     color: gray;
 }
-.icon a p{
+
+.icon a p {
     font-family: "Raleway", sans-serif;
     font-size: 12px;
 }
-.icons i{
+
+.icons i {
     font-size: 20px;
 }
-.icon a:hover{
+
+.icon a:hover {
     color: black;
 }
+
 .vl {
     margin-top: -20px;
     border-left: 1px solid lightgrey;
     height: 50px;
 }
+
 .buttons {
     display: flex;
     gap: 15px;
     align-items: center;
     margin-top: -15px;
 }
-.buttons button{
+
+.buttons button {
     padding: 10px 25px 10px 25px;
     border-radius: 30px;
     outline: none;
     border: none;
 }
-.join button{
+
+.join button {
     background: none;
 }
-.join button:hover{
+
+.join button:hover {
     background-color: lightgray;
 }
-.sign-in a{
+
+.sign-in a {
     color: white;
     text-decoration: none;
 }
-.sign a{
+
+.sign a {
     color: blue;
     text-decoration: none;
 }
-.sign button{
+
+.sign button {
     color: blue;
     border: 1px solid blue;
     background: transparent;
 }
-.sign button:hover{
+
+.sign button:hover {
     background-color: rgb(149, 208, 231);
 }
-.two{
+
+.two {
     height: 140vh;
     width: 100%;
     background-color: white;
 }
-.sect2-cont{
+
+.sect2-cont {
     display: flex;
     justify-content: space-around;
 }
-.welcome{
+
+.welcome {
     margin-left: 90px;
     margin-top: 50px;
     font-family: "Roboto", sans-serif;
 }
-.word{
+
+.word {
     font-family: "Montserrat", sans-serif;
     font-weight: 390;
     font-size: 40px;
     width: 100%;
-    color: rgb(187,86,58);
+    color: rgb(187, 86, 58);
 }
-.form-action input{
+
+.form-action input {
     outline: none;
     width: 65%;
     height: 50px;
     border: 1px solid black;
     border-radius: 5px;
 }
-.form-action input:hover{
+
+.form-action input:hover {
     background-color: lightgrey;
     outline: 0.5px solid black;
 }
-.form-action input::placeholder{
+
+.form-action input::placeholder {
     visibility: hidden;
 }
-.forgot a{
+
+.forgot a {
     text-decoration: none;
 }
-.forgot a:hover{
+
+.forgot a:hover {
     text-decoration: underline;
 }
-.continue a{
+
+.continue a {
     text-decoration: none;
 }
-.continue a:hover{
+
+.continue a:hover {
     text-decoration: underline;
 }
-.laptop img{
+
+.laptop img {
     width: 100%;
     margin-top: 50px;
 }
-.sign-in, .forgot, .inputs{
+
+.sign-in,
+.forgot,
+.inputs {
     margin: 25px 0 25px 0;
 }
-.sign-in button{
+
+.sign-in button {
     padding: 10px 29% 10px 29%;
     border-radius: 30px;
     border: none;
-    background-color: rgb(10,102,194);
+    background-color: rgb(10, 102, 194);
     color: white;
 }
+
 .divider {
     font-size: 16px;
     display: flex;
     align-items: center;
     text-align: center;
 }
-.divider::before, .divider::after {
+
+.divider::before,
+.divider::after {
     flex: 0.3;
     content: '';
     padding: 0.1px;
     background-color: gray;
     margin: 15px;
 }
-.continue{
+
+.continue {
     width: 60%;
     font-size: 12px;
 }
-.google button{
+
+.google button {
     font-size: 12px;
     border-radius: 30px;
     margin-bottom: 15px;
     padding: 10px 40% 10px 10px;
 }
-.newto button{
+
+.newto button {
     font-size: 12px;
     padding: 10px 45% 10px 10px;
     border-radius: 30px;
 }
-.three{
+
+.three {
     height: 70vh;
     width: 100%;
 }
-.explore{
+
+.explore {
     margin-left: 90px;
     display: flex;
     align-items: center;
 }
-.marketing{
+
+.marketing {
     width: 70%;
 }
-.articles h2{
+
+.articles h2 {
     font-family: "Raleway", sans-serif;
     font-size: 50px;
     width: 20%;
     font-weight: 200;
 }
-.articles p{
+
+.articles p {
     width: 55%;
     font-family: "Ral", sans-serif;
     font-size: 15px;
     color: grey;
 }
+
 .same {
     background: transparent;
     border: 1.5px solid black;
@@ -198,7 +242,8 @@
     border-radius: 30px;
     margin-bottom: 10px;
 }
-.show{
+
+.show {
     color: blue;
     border: 1.5px solid blue;
     background: transparent;
@@ -207,306 +252,369 @@
     border-radius: 30px;
     margin-bottom: 10px;
 }
-.four{
+
+.four {
     height: 70vh;
     width: 100%;
 }
-.find{
+
+.find {
     margin-left: 90px;
     display: flex;
 }
-.find-job h2{
+
+.find-job h2 {
     font-family: "Raleway", sans-serif;
     font-size: 50px;
     width: 80%;
     font-weight: 200;
 }
-.jobs{
+
+.jobs {
     width: 70%;
 }
-.five{
+
+.five {
     height: 50vh;
     width: 100%;
-    background-color: rgb(241,236,229);
+    background-color: rgb(241, 236, 229);
 }
-.post{
+
+.post {
     margin-left: 90px;
     align-items: center;
     display: flex;
 }
-.flexs h2{
+
+.flexs h2 {
     font-family: "Roboto", sans-serif;
     font-size: 40px;
     width: 50%;
     font-weight: 400;
-    color: rgb(178,64,32);
+    color: rgb(178, 64, 32);
     margin-top: 10%;
 }
-.post-button button{
+
+.post-button button {
     padding: 15px;
     border-radius: 30px;
     background: transparent;
     color: blue;
     border: 1.5px solid blue;
 }
-.six{
+
+.six {
     height: 70vh;
     width: 100%;
     background-color: white;
 }
-.software{
+
+.software {
     margin-left: 90px;
     display: flex;
-    margin-top:6%;
+    margin-top: 6%;
 }
-.discover h2{
+
+.discover h2 {
     font-family: "Raleway", sans-serif;
     font-size: 50px;
     width: 80%;
     font-weight: 200;
 }
-.tools{
+
+.tools {
     width: 70%;
 }
-.seven{
+
+.seven {
     height: 100vh;
     width: 100%;
-    background-color: rgb(243,242,240);
+    background-color: rgb(243, 242, 240);
 }
-.didi{
+
+.didi {
     margin-top: 60%;
     align-items: center;
 }
-.divv h2{
-    color: rgb(178,64,32);
+
+.divv h2 {
+    color: rgb(178, 64, 32);
     font-family: "Raleway", sans-serif;
 }
-.divv p{
+
+.divv p {
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
     font-weight: 400;
 }
-.eight{
+
+.eight {
     height: 100vh;
     width: 100%;
     background-color: #ffff;
 }
-.connect{
+
+.connect {
     display: flex;
-    margin:15% 0 0 8%;
+    margin: 15% 0 0 8%;
     gap: 10%;
 }
-.help{
+
+.help {
     height: 450px;
     width: 35%;
 }
-.help h2{
+
+.help h2 {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     margin-bottom: 20px;
 }
-.help button{
+
+.help button {
     background: transparent;
     padding: 10px;
     border-radius: 30px;
     border: 1.3px solid black;
 }
-.skills h2{
+
+.skills h2 {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     margin-bottom: 20px;
 }
-.skills{
+
+.skills {
     height: 450px;
     width: 35%;
 }
-.nine{
+
+.nine {
     height: 140vh;
     width: 100%;
 }
-.linkedin{
+
+.linkedin {
     height: 520px;
     width: 50%;
-    background-color: rgb(243,242,240);
+    background-color: rgb(243, 242, 240);
     margin-top: 10%;
     padding: 9% 5% 5% 5%;
 }
-.linkedin h2{
-    color: rgb(178,64,32);
+
+.linkedin h2 {
+    color: rgb(178, 64, 32);
     font-family: "Ral", sans-serif;
     font-size: 35px;
 }
-.linkedin p{
+
+.linkedin p {
     font-family: "Montserrat", sans-serif;
     font-size: 28px;
     width: 90%;
     font-weight: 300;
 }
-.who-is{
+
+.who-is {
     display: flex;
     justify-content: space-between;
 }
-.teach{
+
+.teach {
     height: 500px;
     width: 45%;
 }
-.teach img{
+
+.teach img {
     width: 100%;
 }
-.finds-button button{
+
+.finds-button button {
     width: 80%;
     padding: 15px 10px 15px 10px;
     margin-bottom: 4%;
-    background-color: rgb(234,230,223);
+    background-color: rgb(234, 230, 223);
     display: flex;
     justify-content: space-between;
     border: none;
     outline: none;
 }
-.finds-button button:hover{
+
+.finds-button button:hover {
     background-color: rgb(216, 212, 204);
 }
-.ten{
+
+.ten {
     height: 100vh;
     width: 100%;
     background-image: url(Linkedin-img-people.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
-.join-frd{
+
+.join-frd {
     padding: 60px;
 }
-.join-frd h2{
+
+.join-frd h2 {
     font-family: "Montserrat", sans-serif;
     font-size: 40px;
     width: 100%;
     margin-bottom: 13px;
     font-weight: 300;
 }
-.get-started button{
-    background-color: rgb(10,102,194);
+
+.get-started button {
+    background-color: rgb(10, 102, 194);
     color: white;
     padding: 10px;
     border: none;
     outline: none;
     border-radius: 30px;
 }
-.eleven{
-    margin:10px 0 10px 0;
+
+.eleven {
+    margin: 10px 0 10px 0;
     height: 35vh;
     width: 100%;
     background-image: url(linkedin-img-last.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
-.twelve{
-    background-color: rgb(243,242,240);
+
+.twelve {
+    background-color: rgb(243, 242, 240);
     height: 90vh;
     width: 100%;
 }
-.all{
+
+.all {
     display: flex;
     gap: 30px;
     padding-top: 30px;
 }
-.general{
+
+.general {
     height: 75vh;
     width: 20%;
 }
-.general h3{
+
+.general h3 {
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     margin-left: 30px;
 }
+
 .all ul li {
     list-style-type: none;
     margin: 0;
     padding: 0;
-  }
-.general1{
+}
+
+.general1 {
     height: 75vh;
     width: 20%;
     padding-left: 60px;
 }
-.general1 img{
+
+.general1 img {
     width: 55%;
 }
-ul li a{
+
+ul li a {
     font-family: "Roboto", sans-serif;
     text-decoration: none;
     color: grey;
     font-size: 14px;
 }
-ul li a:hover{
+
+ul li a:hover {
     text-decoration: underline;
     color: blue;
 }
-footer{
+
+footer {
     width: 100%;
     background-color: white;
 }
-.foot-img{
+
+.foot-img {
     display: flex;
 }
-.foot-img img{
+
+.foot-img img {
     width: 6%;
-    margin:5px 0 0 70px;
+    margin: 5px 0 0 70px;
 }
-.foot-img li{
+
+.foot-img li {
     display: inline-block;
-    padding: 20px  8px 0 0px;
+    padding: 20px 8px 0 0px;
 }
-.foot-img ul li a{
+
+.foot-img ul li a {
     font-size: 11px;
 }
-@media ( max-width:990px) {
-    .icon{
+
+@media (max-width:990px) {
+    .icon {
         display: none;
     }
-    .vl{
+
+    .vl {
         display: none;
     }
-    .header{
+
+    .header {
         justify-content: space-between;
         box-sizing: border-box;
         margin-left: 10px;
     }
-    .welcome{
+
+    .welcome {
         margin-left: 10px;
         margin-top: 50px;
     }
-    .explore{
+
+    .explore {
         /* margin-left: 90px; */
         display: block;
         /* width: 40%; */
         /* align-items: center; */
         margin-left: 10px;
     }
-    .articles h2{
+
+    .articles h2 {
         width: 100%;
     }
-    .articles p{
+
+    .articles p {
         width: 77%;
     }
-    .find{
+
+    .find {
         margin-left: 10px;
         display: block;
         /* width: 100%; */
     }
-    .find-job h2{
+
+    .find-job h2 {
         width: 100%;
     }
-    .post{
+
+    .post {
         margin-left: 10px;
         /* display: flex; */
         /* justify-content: space-evenly; */
     }
-    .software{
+
+    .software {
         margin-left: 10px;
         display: block;
         /* width: 100%; */
     }
-    .tools{
+
+    .tools {
         display: block;
     }
 }
