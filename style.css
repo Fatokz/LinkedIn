@@ -15,6 +15,12 @@
     justify-content: space-around;
 }
 
+#alert{
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
 .header img {
     height: 75px;
     cursor: pointer;
