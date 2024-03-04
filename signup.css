@@ -1,0 +1,217 @@
+/* body{
+    background-color: rgb(243,242,240) !important;
+    width: 100%;
+} */
+
+.header {
+    background-color: rgb(243,242,240) !important;
+    width: 100%;
+    height: 80px;
+}
+
+#alert{
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.header img {
+    height: 75px;
+    cursor: pointer;
+    margin-left: 60%;
+}
+
+.one{
+    background-color: rgb(243,242,240) !important;
+    height: 100vh;
+    width: 100%;
+}
+.make{
+    font-family: "Raleway", sans-serif;
+    font-size: 32px;
+    text-align: center;
+    /* font-weight: 100; */
+}
+
+.sign-up{
+    margin: auto;
+    height: 78vh;
+    width: 32%;
+    padding: 25px;
+    background-color: white;
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+    border-radius: 10px;
+}
+
+.sign-up input{
+    width: 100%;
+}
+
+label{
+    font-weight: 500;
+    font-size: 14px;
+    /* color: gray; */
+}
+
+.show {
+    width:100%;
+    background:transparent;
+    border: 1px solid black;
+    border-radius: 2px;
+    height:32px;
+}
+
+.email input{
+    height:32px;
+    /* width: 85%; */
+    border-radius: 2px;
+    border: 1px solid black;
+    outline: none;
+}
+
+.password input{
+    width: 85%;
+    border: none;
+    outline: none;
+    border-radius: 5;
+    background: transparent;
+    cursor: pointer;
+}
+
+.show button{
+    background: transparent;
+    border:none;
+    outline: none;
+    color: blue;
+}
+
+.email input:hover{
+    border: 2px solid black;
+    background-color: #efeded;
+    cursor: pointer;
+}
+
+.show:hover{
+    border: 2px solid black;
+    background-color: #efeded;
+    cursor: pointer;
+}
+
+.clicking{
+    font-size: 12px;
+    text-align: center;
+    /* margin-top: 40px; */
+}
+
+.clicking a{
+    text-decoration: none;
+    color: rgb(30,102,203);
+}
+
+.clicking button{
+    border: none;
+    width: 100%;
+    height: 50px;
+    background-color:rgb(30,102,203) ;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+    /* font-family: "Raleway", sans-serif; */
+}
+
+.clicking a{
+    font-weight: 500;
+}
+
+.divider {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.divider::before,
+.divider::after {
+    flex: 2;
+    content: '';
+    padding: 0.1px;
+    background-color:lightgrey;
+    margin: 15px;
+}
+
+/* .continue{
+    align-items: center;
+    display: flex;
+    margin-left: -90px;
+} */
+
+.continue button{
+    border:1.5px solid grey;
+    width: 100%;
+    height: 45px;
+    /* text-align: left; */
+    background-color:transparent ;
+    border-radius: 30px;
+    color: black;
+    font-weight: 500;
+    font-size: 13px;
+    font-family: "Raleway", sans-serif;
+}
+
+.continue button:hover{
+    border: 1.7px solid black;
+    background-color: #e6e6ed;
+    cursor: pointer;
+}
+
+.fss{
+    font-size: 16px;
+}
+
+.text{
+    text-align: center;
+    font-size: 14px;
+}
+
+.text a{
+    text-decoration: none;
+    color: rgb(30,102,203);
+    font-weight: 500;
+}
+
+footer {
+    width: 100%;
+    background-color: white;
+    height: 50px;
+}
+
+.foot-img {
+    display: flex;
+}
+
+.foot-img img {
+    width: 6%;
+    margin: 5px 0 0 70px;
+}
+
+.foot-img li {
+    display: inline-block;
+    padding: 20px 8px 0 0px;
+}
+
+.foot-img ul li a {
+    font-size: 11px;
+}
+
+ul li a {
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    color: grey;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+    color: rgb(30,102,203);
+}

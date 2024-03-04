@@ -23,7 +23,7 @@ nav {
 .one {
     width: 100%;
     /* background-color: #e4e2ee; */
-    height: 700vh;
+    height: 100vh;
 }
 
 .search a img {
@@ -434,21 +434,52 @@ nav {
     background-color: white;
 }
 
+.secdiv-cont{
+    background: none !important;
+}
+
+.secdiv-cont li i{
+    padding-right: 10px;
+}
+
+.secdiv-cont li{
+    list-style: none;
+    margin-left: -20px;
+    line-height: 40px;
+}
+
+
 .post {
-    height: 115px;
+    height: 929px;
+    overflow-y: auto;
+    /* width: 100v; */
+    border-radius: 5px;
+    /* border: 1px solid #b38853; */
+    /* background-color: white; */
+    /* background-color: red !important; */
+}
+
+.post::-webkit-scrollbar{
+    display: none;
+}
+
+.posts {
+    height: 110vh;
+    width: 100%;
+    /* margin-left: -14px; */
+    margin-top: 4%;
     border-radius: 5px;
     border: 1px solid #b38853;
     background-color: white;
 }
 
-.posts {
-    height: 110vh;
-    width: 106%;
-    margin-left: -14px;
-    margin-top: 4%;
+.makepost{
+    height: 115px;
+    /* width: 100%; */
     border-radius: 5px;
     border: 1px solid #b38853;
     background-color: white;
+    /* background-color: yellowgreen; */
 }
 
 .imagg {
@@ -575,13 +606,40 @@ nav {
 }
 
 .likes {
+    /* cursor: pointer; */
+    margin-top: 8px;
     height: 20px;
+    /* background-color: red; */
 }
+
+.likes  i{
+    cursor: pointer;
+    /* margin-top: 8px; */
+    /* height: 20px; */
+    /* background-color: red; */
+    /* color: blueviolet; */
+}
+
+/* .divider {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.divider::before,
+.divider::after {
+    flex: 1.5;
+    content: '';
+    padding: 0.1px;
+    background-color: rgb(196, 193, 193);
+    margin: -12px -10px 0 -12px;
+} */
 
 .share {
     display: flex;
     justify-content: space-around;
-    margin-top: -7px;
+    margin-top: -10px;
 }
 
 .add {
@@ -728,13 +786,9 @@ nav {
 .ads {
     position: absolute;
     margin-top: 15%;
-    height: 300px;
     width: 101%;
     margin-left: -10px;
-    /* padding: 40px; */
     border-radius: 5px;
-    /* border: 1px solid #b38853; */
-    /* background-color: white; */
 }
 
 .hiring {
@@ -905,4 +959,16 @@ nav {
     color: white;
     width: 70% !important;  
     background-color:deepskyblue ;
+}
+
+@media (max-width:950px) {
+    .add{
+        display: none;
+    }
+    .profile{
+        width:30% !important;
+    }
+    .post{
+        width:60% !important;
+    }
 }

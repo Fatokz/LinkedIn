@@ -23,7 +23,7 @@ nav {
 .one {
     width: 100%;
     /* background-color: #e4e2ee; */
-    height: 1300px;
+    height: 190vh;
 }
 
 .search a img {
@@ -259,6 +259,7 @@ li{
     height: 10vh;
     border-radius: 5px;
     padding: 9px;
+    /* background-color: red; */
     border: 1px solid #b38853;
     background-color: white;
 }
@@ -272,7 +273,6 @@ li{
 
 .managee,
 .accept {
-    /* background-color: rebeccapurple !important; */
     background: none !important;
 }
 
@@ -288,11 +288,11 @@ li{
     margin-left: -10px;
     padding: 9px;
     border: 1px solid #b38853;
+    /* background-color: aqua; */
     background-color: white;
 }
 
 .recent {
-    /* background-color: red !important; */
     background: none !important;
     display: flex;
     justify-content: space-between;
@@ -307,8 +307,8 @@ li{
     background: none !important;
     display: flex;
     flex-wrap: wrap;
+    overflow-y: auto;
     width: 100%;
-    /* padding: 20%; */
     gap: 20px 10px;
 }
 
@@ -327,7 +327,9 @@ li{
     width: 24%;
     height: 18em;
     border-radius: 10px;
-    background-color: white;
+    /* background-color: yellowgreen; */
+    /* overflow-y: auto; */
+    /* background-color: white; */
     /* border: 1.5px solid lightgrey; */
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
@@ -357,6 +359,7 @@ li{
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    /* background-color: #0a66c2; */
 }
 
 .xmark button {

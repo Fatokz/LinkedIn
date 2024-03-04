@@ -101,7 +101,7 @@
 }
 
 .two {
-    height: 140vh;
+    height: fit-content;
     width: 100%;
     background-color: white;
 }
@@ -109,6 +109,9 @@
 .sect2-cont {
     display: flex;
     justify-content: space-around;
+    /* height: fit-content; */
+    background-color: red;
+    /* height: 200vh; */
 }
 
 .welcome {
@@ -453,7 +456,7 @@
 .ten {
     height: 100vh;
     width: 100%;
-    background-image: url(Linkedin-img-people.jpg);
+    background-image: url(footerimage111.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -477,15 +480,6 @@
     border: none;
     outline: none;
     border-radius: 30px;
-}
-
-.eleven {
-    margin: 10px 0 10px 0;
-    height: 35vh;
-    width: 100%;
-    background-image: url(linkedin-img-last.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .twelve {
@@ -574,7 +568,12 @@ footer {
     .header {
         justify-content: space-between;
         box-sizing: border-box;
-        margin-left: 10px;
+        /* margin-left: 10px; */
+        width: 100%;
+    }
+
+    .sect2-cont{
+        flex-direction:column;
     }
 
     .welcome {
@@ -582,11 +581,14 @@ footer {
         margin-top: 50px;
     }
 
+    .laptop img {
+        width: 50%;
+        align-items: center;
+        margin-top: 50px;
+    }
+
     .explore {
-        /* margin-left: 90px; */
         display: block;
-        /* width: 40%; */
-        /* align-items: center; */
         margin-left: 10px;
     }
 
