@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,800;1,100;1,200;1,300;1,400;1,500;1,600&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:wght@100..900&display=swap');
 
-/* *{
+*{
     box-sizing: border-box;
-} */
-/* body{
+}
+body{
     width: 100%;
-    height: 100%;
-} */
+    height: fit-content;
+}
 .header {
     width: 100%;
     height: 80px;
@@ -110,7 +110,7 @@
     display: flex;
     justify-content: space-around;
     /* height: fit-content; */
-    background-color: red;
+    /* background-color: red; */
     /* height: 200vh; */
 }
 
@@ -215,7 +215,7 @@
 }
 
 .three {
-    height: 70vh;
+    height: fit-content;
     width: 100%;
 }
 
@@ -263,7 +263,7 @@
 }
 
 .four {
-    height: 70vh;
+    height: fit-content;
     width: 100%;
 }
 
@@ -284,7 +284,7 @@
 }
 
 .five {
-    height: 50vh;
+    height: fit-content;
     width: 100%;
     background-color: rgb(241, 236, 229);
 }
@@ -313,7 +313,7 @@
 }
 
 .six {
-    height: 70vh;
+    height: fit-content;
     width: 100%;
     background-color: white;
 }
@@ -336,7 +336,7 @@
 }
 
 .seven {
-    height: 100vh;
+    height: fit-content;
     width: 100%;
     background-color: rgb(243, 242, 240);
 }
@@ -399,12 +399,12 @@
 }
 
 .nine {
-    height: 140vh;
+    height: 135vh;
     width: 100%;
 }
 
 .linkedin {
-    height: 520px;
+    height: fit-content;
     width: 50%;
     background-color: rgb(243, 242, 240);
     margin-top: 10%;
@@ -427,6 +427,7 @@
 .who-is {
     display: flex;
     justify-content: space-between;
+    /* height: fit-content; */
 }
 
 .teach {
@@ -484,7 +485,7 @@
 
 .twelve {
     background-color: rgb(243, 242, 240);
-    height: 90vh;
+    height:100vh ;
     width: 100%;
 }
 
@@ -565,6 +566,10 @@ footer {
         display: none;
     }
 
+    nav{
+        width: 100%;
+    }
+
     .header {
         justify-content: space-between;
         box-sizing: border-box;
@@ -624,5 +629,37 @@ footer {
 
     .tools {
         display: block;
+    }
+}
+@media (max-width:450px){
+    nav{
+        box-sizing: border-box;
+        width: 100%;
+        margin-right: -60px;
+    }
+    /* .four{
+        width: 50%;
+    } */
+    .five{
+        width: 100%;
+        /* margin: 0; */
+    }
+    .header img{
+        height: 50px;
+    }
+    .welcome {
+        /* margin-left: 10px; */
+        /* margin-top: 50px; */
+        font-family: "Roboto", sans-serif;
+    }
+    .word {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 390;
+        font-size: 20px;
+        width: 100%;
+        color: rgb(187, 86, 58);
+    }
+    .ten{
+        /* height: fit-content; */
     }
 }

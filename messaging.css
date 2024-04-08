@@ -486,6 +486,8 @@ nav {
 .comments textarea{
     background-color: #eae7e7f9 !important;
     border: none;
+    /* height: 90% !important; */
+    width: 100% !important;
 }
 
 .media1{
